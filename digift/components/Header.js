@@ -1,3 +1,4 @@
+import Link from "next/link";
 function Header() {
   return (
     <header className=" bg-white shadow-sm px-6 py-6 flex items-center justify-between ">
@@ -93,41 +94,76 @@ function Header() {
           </linearGradient>
         </defs>
       </svg>
-      <div className="flex items-center space-x-4">
-        <a>Personal</a>
-        <svg
-          width="6"
-          height="10"
-          viewBox="0 0 6 10"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0.999268 0.998047L4.99927 4.99805L0.999268 8.99805"
-            stroke="#8A91A8"
-            stroke-opacity="0.8"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-        <a>Business</a>
-        <svg
-          width="6"
-          height="10"
-          viewBox="0 0 6 10"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0.999268 0.998047L4.99927 4.99805L0.999268 8.99805"
-            stroke="#8A91A8"
-            stroke-opacity="0.8"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
+      <div className="flex items-center space-x-8">
+        <div className="">
+          <ul className="flex items-center  space-x-4">
+            <li>
+              <Link href="/">
+                <div className="flex items-center space-x-4">
+                  <a className="text-textColor ">Personal</a>
+                  <svg
+                    width="6"
+                    height="10"
+                    viewBox="0 0 6 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.999268 0.998047L4.99927 4.99805L0.999268 8.99805"
+                      stroke="#8A91A8"
+                      stroke-opacity="0.8"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </Link>
+            </li>
+            <li>
+              <Link href="/business">
+                <div className="flex items-center space-x-4">
+                  <a className="text-textColor ">Business</a>
+                  <svg
+                    width="6"
+                    height="10"
+                    viewBox="0 0 6 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.999268 0.998047L4.99927 4.99805L0.999268 8.99805"
+                      stroke="#8A91A8"
+                      stroke-opacity="0.8"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </Link>
+            </li>
+          </ul>
+        </div>
+        {/* <div className="flex items-center space-x-4">
+          <a className="text-textColor">Business</a>
+          <svg
+            width="6"
+            height="10"
+            viewBox="0 0 6 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.999268 0.998047L4.99927 4.99805L0.999268 8.99805"
+              stroke="#8A91A8"
+              stroke-opacity="0.8"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div> */}
       </div>
       <div className="flex items-center w-4/12 relative  outline-none ">
         <svg

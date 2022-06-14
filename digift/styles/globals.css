@@ -4,3 +4,9 @@
 .bg-image {
   background-image: url("../images/Rectangle.png");
 }
+.btn-shadow {
+  box-shadow: 4px 4px 0px #5ca5ff;
+}
+.bg-card {
+  background-image: url("../images/amazon.png");
+}

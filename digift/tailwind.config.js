@@ -17,6 +17,7 @@ module.exports = {
         lightBlue: "#C2DDFF",
         textColor: "#8A91A8",
         lighterBlue: "#F3F4F7",
+        fadeBlue: "#F5F7FA",
         bluish: " #5CA5FF",
         rearBlue: "#C2DDFF",
       },

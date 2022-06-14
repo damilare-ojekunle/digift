@@ -140,7 +140,7 @@ function Business(props) {
             </div>
           </div>
           <div className="mt-32 mx-8 ">
-            <h2 className="inline-block font-bold text-3xl  mx-16 ">
+            <h2 className="inline-block font-bold text-3xl  mx-16 mb-16 ">
               Latest Arrival
             </h2>
             <div className="flex justify-between">
